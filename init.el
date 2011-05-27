@@ -9,6 +9,7 @@
 
 (define-key global-map "\C-h" 'delete-backward-char)
 
+(global-hl-line-mode 1)
 (show-paren-mode t)
 
 (require 'auto-complete)
