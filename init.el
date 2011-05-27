@@ -15,5 +15,7 @@
 (line-number-mode 1)
 (column-number-mode 1)
 
+(savehist-mode 1)
+
 (require 'auto-complete)
 (global-auto-complete-mode t)
