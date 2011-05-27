@@ -12,5 +12,8 @@
 (global-hl-line-mode 1)
 (show-paren-mode t)
 
+(line-number-mode 1)
+(column-number-mode 1)
+
 (require 'auto-complete)
 (global-auto-complete-mode t)
