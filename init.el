@@ -16,6 +16,7 @@
 (column-number-mode 1)
 
 (savehist-mode 1)
+(setq echo-keystrokes 0.1)
 
 (require 'auto-complete)
 (global-auto-complete-mode t)
