@@ -18,5 +18,8 @@
 (savehist-mode 1)
 (setq echo-keystrokes 0.1)
 
+(setq recentf-max-saved-items 500)
+(require 'recentf-ext)
+
 (require 'auto-complete)
 (global-auto-complete-mode t)
